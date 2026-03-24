@@ -1,0 +1,1 @@
+Single instruction program. Tests partial fetch (1 of 4 slots), minimal pipeline drain.

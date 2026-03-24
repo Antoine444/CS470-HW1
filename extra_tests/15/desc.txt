@@ -1,0 +1,1 @@
+Exactly 4 independent instructions (one full fetch batch). Tests clean single-batch pipeline drain.

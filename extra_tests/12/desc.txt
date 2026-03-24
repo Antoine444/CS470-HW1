@@ -1,0 +1,1 @@
+36-instruction serial dependency chain on x1. Each instruction depends on the previous, so only 1 can issue every 2 cycles while 4 dispatch per cycle. Forces free list and active list exhaustion, triggering backpressure. Tests commit freeing resources for R&D in same cycle (combinational path).

@@ -1,0 +1,1 @@
+Exception at PC=2 (3rd instruction) with PC=0,1 completing first. Commit retires PC=0,1 then hits exception on PC=2 in same scan. Tests partial retirement + exception detection in one commit pass, plus rollback of instructions after the exception.

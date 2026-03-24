@@ -1,0 +1,1 @@
+Exception on the very first instruction (PC=0). Tests exception recovery with minimal active list.

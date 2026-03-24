@@ -1,0 +1,1 @@
+Deep serial dependency chain: each instruction depends on the previous. Tests forwarding path wakeup -> issue in same cycle repeatedly (only 1 instruction can issue per cycle after the first).

@@ -1,0 +1,1 @@
+Negative immediate in addi. Tests sign extension to 64-bit unsigned and arithmetic with large unsigned values (wrapping).

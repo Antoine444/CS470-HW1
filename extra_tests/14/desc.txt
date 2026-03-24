@@ -1,0 +1,1 @@
+All 6 opcodes (add, addi, sub, mulu, divu, remu) with normal execution (no exceptions). Verifies divu and remu produce correct results with non-zero divisor.
