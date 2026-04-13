@@ -1,0 +1,1 @@
+Both operands forwarded simultaneously from two different ALU results in the same cycle. Tests that alu_forward wakes both OpA and OpB of a single IQ entry within one cycle.

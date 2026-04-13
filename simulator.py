@@ -112,11 +112,7 @@ def commit(cur, nxt):
                 nxt["bbt"][new_phys] = False
     else:
         # Normal mode: retire from head
-        for _ in range(4):
-            if not cur["active_list"]:
-                break
-            # We need to index into cur AL to check, but pop from nxt
-            idx = _
+        for idx in range(4):
             if idx >= len(cur["active_list"]):
                 break
             entry = cur["active_list"][idx]

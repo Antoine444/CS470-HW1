@@ -1,0 +1,1 @@
+mulu overflow: multiply 0xFFFFFFFFFFFFFFFF by 2 and by itself. Tests 64-bit unsigned truncation (& MASK) in compute_result.

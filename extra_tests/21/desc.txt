@@ -1,0 +1,1 @@
+WAW hazard where the second writer (divu) exceptions. Two instructions write x3; the second divides by zero. Tests that sequential rollback correctly restores the intermediate WAW mapping.

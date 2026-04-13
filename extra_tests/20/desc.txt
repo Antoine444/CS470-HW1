@@ -1,0 +1,1 @@
+8 independent instructions: 5+ ready simultaneously in the Integer Queue. Tests that Issue picks exactly 4 oldest (by PC) and defers the rest to the next cycle.

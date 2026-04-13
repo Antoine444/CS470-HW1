@@ -1,0 +1,1 @@
+Self-dependency: dest == src1 == src2 (add x1, x1, x1). Tests that operand tags are captured BEFORE the destination rename sets the busy bit.
